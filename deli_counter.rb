@@ -23,3 +23,5 @@ def now_serving(nextinline)
   else
     puts "Currently serving #{nextinline[0]}."
     nextinline.shift
+  end
+end
