@@ -11,3 +11,6 @@ def line_method(numinline)
     puts "The line is: #{line_method_array.join(" ")}"
   end
 end
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
